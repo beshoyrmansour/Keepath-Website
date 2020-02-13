@@ -117,6 +117,7 @@ width: 100%;
         align-items: center;
         justify-content: center;
         /* text-align: center; */
+        margin-bottom: 4rem;
     }
     .hero .hero_image img{
         width:90%;
