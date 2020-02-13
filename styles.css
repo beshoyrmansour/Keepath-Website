@@ -1,0 +1,136 @@
+html, body{
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    overflow-x: hidden;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg ,#12054E,#110950,#101659,#0F2B68,#0C497C,#0A6F97, #069EB7, #02D4DC, #00F7F4);
+    padding: 0px;
+    margin: 0px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: block;
+    position: relative;}
+
+.logo{
+
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+margin-top: 3rem;
+width: 100%;
+
+}
+
+.logo img{
+    display: block;
+    height: auto;
+
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex: 1 1;
+}
+
+.hero .message{
+    width: 35%;
+    padding-right: 4rem;
+}
+
+.hero .message h1{
+    font-size: 2.4rem;
+    font-weight: normal;
+
+}
+
+.hero .message p{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+
+}
+
+/* .hero .hero_image{
+    width:50%;
+} */
+
+.hero .hero_image img{
+    width: 100%;
+}
+
+.email_input{
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+    padding-left: 0.7rem;
+    width: 100%;
+}
+
+.email_input input{
+    flex: 1; 
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    border-radius: 50px;
+    font-size: 1.1rem;
+}
+
+.email_input button{
+    font-size: 1.1rem;
+    grid-row: 1;
+    background-color: #E60B2B;
+    color: #fff;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    padding: 0.7rem 1rem;
+    border-radius: 50px;
+    align-self: flex-end;
+
+}
+@media (max-width: 1025px) { 
+    html, body{
+        font-size: 14px;
+    }
+    
+.logo{
+    margin-top: 1rem;
+}
+.logo img{
+    max-width: 85vw;
+}
+    .hero{
+        flex-direction: column-reverse;
+        margin-top: 2rem;   
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
+    }
+    .hero .hero_image img{
+        width:90%;
+        padding-left: 5%;
+        /* width:100%; */
+    }
+    .hero .message{
+        /* margin-left: 5%; */
+        width:90%;
+        /* width:100%; */
+        padding: 0rem;
+    }
+    /* padding: 0rem; */
+    .email_input{
+        width:95%;
+    }
+}
