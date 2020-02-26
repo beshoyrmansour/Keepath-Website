@@ -91,6 +91,10 @@ button.kp_button {
   margin: 0px 0.5rem;
 }
 
+.remove-safari-style{
+  -webkit-appearance:none;
+
+}
 @media (max-width: 1025px) {
     .kp_logo img{
         /* display: flex;
